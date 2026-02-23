@@ -97,13 +97,13 @@ esercizi-html-css/
 │   ├── README.md
 │   ├── css/
 │   │   └── style.css
-│   └── img/ (facoltativa)
+│   └── img/
 │
 ├── discord/
 │   ├── index.html
 │   ├── README.md
 │   ├── css/
 │   │   └── style.css
-│   └── assets-bonus/ (bonus)
+│   └── assets-bonus/
 │
 └── README.md
