@@ -1,0 +1,161 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.4;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* CONTENITORE */
+.wrap {
+  width: min(900px, 92%);
+  margin: 0 auto;
+}
+
+/* HEADER */
+.site-header {
+  background-color: #4ea0ff;
+  background-image: url("../img/pattern.png");
+  background-size: 360px;
+  height: 95px;
+}
+
+.logo {
+  width: 220px;
+  padding-top: 35px; /* porta il logo “giù” come nello screenshot */
+}
+
+/* TITOLO + META */
+.head {
+  padding: 18px 0 10px;
+}
+
+.head h1 {
+  font-size: 38px;
+  line-height: 1.05;
+  margin-bottom: 8px;
+}
+
+.meta {
+  color: #808080;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.meta a {
+  color: #3cb4e7;
+  text-decoration: none;
+}
+
+/* FOTO AFFIANCATE */
+.photos {
+  display: flex;
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.photos img {
+  width: calc(50% - 8px);
+  height: 280px;
+  object-fit: cover;
+}
+
+.caption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #808080;
+  margin: 6px 0 14px;
+}
+
+/* TESTO */
+.content p {
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.content mark {
+  background: #ffff66;
+  padding: 0 2px;
+}
+
+.content ul {
+  margin: 10px 0 12px 20px;
+  font-size: 14px;
+}
+
+/* TABELLA */
+.tbl {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.tbl thead th {
+  background: #20a9e5;
+  color: #fff;
+  text-align: left;
+  padding: 6px 8px;
+}
+
+.tbl tbody td {
+  padding: 10px 8px;
+  vertical-align: top;
+}
+
+.tbl tbody tr.alt {
+  background: #b1e5f2;
+}
+
+/* “POTREBBERO INTERESSARTI” */
+.related {
+  margin-top: 16px;
+  padding-bottom: 30px;
+}
+
+.related h2 {
+  color: #808080;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 260px;            /* come nello screenshot: card piccole */
+  height: 170px;
+  margin: 10px 0;
+  padding: 10px;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.card h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.card.monitor {
+  background-image: url("../img/monitor.jpg");
+}
+
+.card.graph {
+  background-image: url("../img/graph.jpg");
+}
