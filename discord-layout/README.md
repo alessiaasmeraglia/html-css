@@ -30,8 +30,7 @@ Con questo esercizio si allenano le seguenti competenze:
 
 - `index.html` → pagina principale
 - `css/style.css` → foglio di stile principale
-- `img/` *(facoltativa, se utilizzata)* → immagini e risorse grafiche
-- `screenshots/` *(materiale di riferimento)* → screenshot della traccia
+- `img/` → immagini e risorse grafiche
 - `assets-bonus/` *(bonus)* → risorse per replicare anche i contenuti
 
 ## Livello di difficoltà
