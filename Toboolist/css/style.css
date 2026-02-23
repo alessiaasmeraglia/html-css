@@ -1,0 +1,163 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f6f8f9;
+  color: #222;
+}
+
+/* HEADER */
+.site-header {
+  background: #fff;
+  padding: 14px 28px;
+  border-bottom: 1px solid #e6eaed;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.brand-title {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+/* PAGE + CARD */
+.page {
+  padding: 40px 0;
+}
+
+.card {
+  width: min(760px, 92%);
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.card-top {
+  padding: 16px 40px;
+  border-bottom: 2px solid #f0f3f5;
+}
+
+.card-body {
+  padding: 28px 40px 34px;
+}
+
+/* BUTTONS */
+.btn {
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.btn-primary {
+  background: #1e90ff;
+  color: #fff;
+}
+
+.btn-outline {
+  background: #fff;
+  color: #808080;
+  border-color: #d6dde3;
+}
+
+/* BLOCK TITLES */
+.block {
+  margin-top: 18px;
+}
+
+.block-title {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+/* LIST */
+.list {
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+}
+
+.text {
+  font-size: 16px;
+}
+
+/* ICONS */
+.icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  border: 1px solid;
+  line-height: 1;
+}
+
+.icon.ok {
+  color: #00ff00;
+  border-color: #00ff00;
+}
+
+.icon.no {
+  color: #ff0000;
+  border-color: #ff0000;
+}
+
+/* TAGS (BADGE) */
+.tag {
+  margin-left: 6px;
+  font-size: 12px;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 999px;
+}
+
+.tag-editorial {
+  background: #45abea;
+}
+
+.tag-q1 {
+  background: #9c72e4;
+}
+
+.tag-recruiting {
+  background: #64c0a9;
+}
+
+.tag-mobile {
+  background: #f29e33;
+}
+
+.tag-website {
+  background: #d863a1;
+}
+
+.tag-sales {
+  background: #b0c926;
+}
