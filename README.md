@@ -1,4 +1,4 @@
-# Portfolio Esercizi HTML & CSS
+# Esercizi HTML & CSS del Fundamentals Camp in Web Development by Boolean
 
 Raccolta di esercizi svolti durante il percorso di studio di **HTML** e **CSS**, con l’obiettivo di sviluppare competenze nella creazione di pagine web statiche, organizzazione dei file di progetto e costruzione di layout a partire da tracce grafiche.
 
